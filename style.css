@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    width: 100%;
+    border: 1px solid red;
+}
+
+#navigation{
+    display: none;
+}
+#header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+#herosection{
+    width: 100%;
+}
+#herosection div img{
+    width: 100%;
+}
+#product,#winter,#healthy,#footer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.product-items{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.product-items img{
+    width: 100%;
+}
+#winter-item{
+    width: 100%;
+    text-align: center;
+}
+.winter-items{
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+}
+.winter-items img{
+    width: 100%;
+ 
+}
+.healthy-item{
+    width: 100%;
+    margin: 10px;
+
+}
+.healthy-item img{
+    width: 100%;
+}
+#footer div{
+    width: 100%;
+    text-align: center;
+    margin: 10px;
+}
+
+@media only screen and (min-width:768px)
+{
+    .product-items{
+        width: 30%;
+    } 
+    .winter-items{
+        width: 30%;
+    }  
+    .healthy-item{
+        width: 46%;
+    
+    }
+    #footer div{
+        width: 46%;
+    }
+}
+
+@media only screen and (min-width:1200px)
+{
+    #navigation{
+        display: block;
+    }
+    #navigation nav a{
+        color: black;
+        text-decoration: none;
+        margin: 0px 20px;
+    }
+    .winter-items{
+        width: 23%;
+    }
+    #footer div{
+        width: 23%;
+    }
+    #footer{
+        padding: 200px 0px;
+        background-color: greenyellow;
+    }
+}

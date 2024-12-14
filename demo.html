@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        #demo1:visited{
+            color: yellow;
+        }
+        #demo2:active{
+            font-size: 30px;
+        }
+        #inp1:focus{
+            background-color: rebeccapurple;
+            color: red;
+        }
+
+        p::selection{
+        background-color: yellow;
+        color: red;
+        }
+        input[type=email]:invalid{
+            color: red;
+        }
+        input[type=email]:valid{
+            color: rgb(18, 238, 36);
+        }
+        
+    </style>
+</head>
+<body>
+        <a href="###" id="demo1">Click</a>
+        <a href="###" id="demo2">Click</a>
+
+
+       <form action="">
+
+
+        <input type="email">
+        <input type="text" name="" id="inp1" required>
+        <input type="submit">
+
+
+       </form>
+
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus in enim sunt laborum totam ipsam, rem, esse quisquam vitae magni unde velit voluptates fuga minus, officiis accusantium veritatis alias mollitia!</p>
+</body>
+</html>
